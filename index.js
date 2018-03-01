@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+const client = new Discord.Client();
 
 const TOKEN = "NDE4NTgzMjIzNjAyMjQ5NzI4.DXjr_g.aP1pOpYBnf0VCrSS7BzomHt38vU";
 const PREFIX = "!"
@@ -48,4 +49,4 @@ bot.on("message", function(message) {
     }
 });
 
-bot.login(TOKEN);
+client.login(process.env.BOT_TOKEN);
