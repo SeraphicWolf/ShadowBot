@@ -11,7 +11,7 @@ client.on("ready", () => {
 client.on("message", message => {
   const args = message.content.split(' ');
   let command = message.content.toLowerCase().split(" ")[0];
-  command = command.slice(prefix.length)
+  command = command.slice(PREFIX.length)
   
   if (message.author.bot) return;
   if (!message.content.startsWith(PREFIX)) return;
