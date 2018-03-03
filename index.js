@@ -10,8 +10,6 @@ var fortunes = [
     "Hell No",
 ];
 
-client.user.setActivity("GAME HERE");
-
 var bot = new Discord.Client();
 
 client.on("ready", function() {
