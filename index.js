@@ -10,7 +10,7 @@ var fortunes = [
     "Hell No",
 ];
 
-client.user.setGame("Testing!")
+client.user.setPresence({ game: { name: 'nameGoesHere', type: 0 } });
 
 var bot = new Discord.Client();
 
