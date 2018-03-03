@@ -10,8 +10,6 @@ var fortunes = [
     "Hell No",
 ];
 
-client.user.setActivity("GAME HERE");
-
 
 client.on("ready", function() {
     console.log("Ready");
