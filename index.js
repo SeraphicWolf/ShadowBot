@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+const client = new Discord.Client();
 
 const PREFIX = "!"
 
@@ -11,7 +12,6 @@ var fortunes = [
 
 client.user.setActivity("GAME HERE");
 
-var bot = new Discord.Client();
 
 client.on("ready", function() {
     console.log("Ready");
