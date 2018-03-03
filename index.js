@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const client = new Discord.Client();
 
 const PREFIX = "!"
 
@@ -9,6 +8,8 @@ var fortunes = [
     "Mabye",
     "Hell No",
 ];
+
+client.user.setActivity("GAME HERE");
 
 var bot = new Discord.Client();
 
