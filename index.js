@@ -10,6 +10,8 @@ var fortunes = [
     "Hell No",
 ];
 
+client.user.setGame("Testing!")
+
 var bot = new Discord.Client();
 
 client.on("ready", function() {
