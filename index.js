@@ -5,7 +5,7 @@ const PREFIX = "!"
 var fortunes = ["Yes", "No", "Mabye", "Hell No"];
 client.on("ready", () => {
   console.log("Ready");
-  client.user.setActivity("Horror Games", {type: 'PLAYING'});
+  client.user.setActivity("Say !help for Help!", {type: 'PLAYING'});
 });
 
 client.on("message", message => {
