@@ -37,9 +37,15 @@ client.on("message", message => {
       .addField("ping","Pong!")
       .addField("botinfo","Display's Info about the bot")
       .addField("8ball","Tell's The Future!")
+      .addField("project","Display's info on a special project")
       message.channel.sendEmbed(embed);
     break;
-
+    case "unity':
+      var embed = new Discord.RichEmbed()
+      .addField("Project Info","https://gamejolt.com/games/mmdunitytest/325088")
+      message.channel.sendEmbed(embed);
+     break;
+      
     default:
       message.channel.sendMessage("Invalid Command");
     }
