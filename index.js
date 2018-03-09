@@ -40,9 +40,10 @@ client.on("message", message => {
       .addField("unity","Display's info on a special project")
       message.channel.sendEmbed(embed);
     break;
-    case "unity':
+      
+    case "unity":
       var embed = new Discord.RichEmbed()
-      .addField("Project Info","https://gamejolt.com/games/mmdunitytest/325088")
+      .addField("https://gamejolt.com/games/mmdunitytest/325088")
       message.channel.sendEmbed(embed);
     break;
       
