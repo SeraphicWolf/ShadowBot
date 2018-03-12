@@ -41,12 +41,6 @@ client.on("message", message => {
       message.channel.sendEmbed(embed);
     break;
       
-    case "unity":
-      var embed = new Discord.RichEmbed()
-      .addField("https://gamejolt.com/games/mmdunitytest/325088")
-      message.channel.sendEmbed(embed);
-    break;
-      
     default:
       message.channel.sendMessage("Invalid Command");
     }
