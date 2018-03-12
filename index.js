@@ -42,7 +42,7 @@ client.on("message", message => {
     break;
       
     case "unity"
-      message.channel.sendMessage("Here is a link to a special Project --->https://gamejolt.com/games/mmdunitytest/325088");
+      message.channel.sendMessage("Here is a link to a special Project https://gamejolt.com/games/mmdunitytest/325088");
     break;
       
     default:
