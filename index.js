@@ -40,6 +40,7 @@ client.on("message", message => {
       .addField("unity","Display's info on a special project")
       message.channel.sendEmbed(embed);
     break;
+      
     case "unity"
       message.channel.sendMessage("Here is a link to a special Project --->https://gamejolt.com/games/mmdunitytest/325088");
     break;
