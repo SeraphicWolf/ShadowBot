@@ -20,6 +20,12 @@ client.on("message", message => {
     case "ping":
        message.channel.sendMessage("Pong!");
     break;
+      
+    case "unity":
+      var embed = new Discord.RichEmbed()
+      .addField("https://gamejolt.com/games/mmdunitytest/325088")
+      message.channel.sendEmbed(embed);
+    break;
 
     case "botinfo":
       var embed = new Discord.RichEmbed()
@@ -40,11 +46,7 @@ client.on("message", message => {
       .addField("unity","Display's info on a special project")
       message.channel.sendEmbed(embed);
     break;
-      
-    case "unity"
-      message.channel.sendMessage("Here is a link to a special Project https://gamejolt.com/games/mmdunitytest/325088");
-    break;
-      
+
     default:
       message.channel.sendMessage("Invalid Command");
     }
